@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aulão Problema N+1 queries com Spring Data JPA
 
 #### Assista o vídeo desta aula:
@@ -28,3 +29,7 @@ SELECT * FROM tb_product
 	WHERE tb_product.id IN (1,2,3,4,5)
 ```  
  
+=======
+# aula_nmais1
+Projeto feito durante a aula aula_nmais1 do canal DevSuperior. Aprendi a evitar o famoso problema N+1 no JPA usando JOIN FETCH e boas práticas de consulta.
+>>>>>>> 0ddfa5600402712d76cbae45da6333f4533f0bab
