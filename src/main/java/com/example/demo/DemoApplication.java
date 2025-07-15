@@ -42,12 +42,13 @@ public class DemoApplication implements CommandLineRunner {
 		Product p8 = new Product(null, "P8");
 		Product p9 = new Product(null, "P9");
 		Product p10 = new Product(null, "P10");
-
+		
+		
 		p1.getCategories().addAll(Arrays.asList(c1, c2));
 		p2.getCategories().addAll(Arrays.asList(c1, c3));
 		p3.getCategories().addAll(Arrays.asList(c2, c3));
 		p4.getCategories().addAll(Arrays.asList(c1, c2));
-		p5.getCategories().addAll(Arrays.asList(c2, c3));
+		p5.getCategories().addAll(Arrays.asList(c2, c3,c1));
 		p6.getCategories().addAll(Arrays.asList(c1, c3));
 		p7.getCategories().addAll(Arrays.asList(c1));
 		p8.getCategories().addAll(Arrays.asList(c3));
